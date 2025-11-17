@@ -7,6 +7,7 @@ A locker will only open if both the password and fingerprint match.
 # Features
 
 1.Two-level security: Password + Fingerprint
+#
 2.Passwords stored in I2C EEPROM
 3.Fingerprint enroll, delete, and search options
 4.Edit password and fingerprint via external interrupt
