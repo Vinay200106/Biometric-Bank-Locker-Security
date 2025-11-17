@@ -1,0 +1,11 @@
+.\motor_add.o: MOTOR_ADD.c
+.\motor_add.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\motor_add.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\motor_add.o: delay.h
+.\motor_add.o: types.h
+.\motor_add.o: lcd.h
+.\motor_add.o: uart0.h
+.\motor_add.o: i2c.h
+.\motor_add.o: kpm.h
+.\motor_add.o: kpm_defines.h
+.\motor_add.o: R305.h

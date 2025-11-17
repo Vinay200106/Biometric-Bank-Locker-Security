@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'R305.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"r305.o"'
+### List of Objects: adding '"motor_add.o"'
+### List of Objects: adding '"kpm.o"'
+### List of Objects: adding '"interupt_pro.o"'
+### List of Objects: adding '"i2c.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "delay.o" "lcd.o" "uart0.o" "r305.o" "motor_add.o" "kpm.o" "interupt_pro.o" "i2c.o" --strict --scatter "R305.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\R305.map" -o "R305.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'R305.axf'
+### ADS-LD Command File: 'R305.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'R305.lnp', Handle=0x000002D4
+### Writing '.lnp' file
+### ADS-LD Command file 'R305.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

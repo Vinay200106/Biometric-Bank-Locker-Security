@@ -1,0 +1,9 @@
+database_rs305.o: database_rs305.c
+database_rs305.o: C:\KeilARM\ARM\INC\Philips\LPC21xx.h
+database_rs305.o: C:\KeilARM\ARM\RV31\INC\string.h
+database_rs305.o: delay.h
+database_rs305.o: types.h
+database_rs305.o: lcd.h
+database_rs305.o: uart0.h
+database_rs305.o: keypad.h
+database_rs305.o: R305.h

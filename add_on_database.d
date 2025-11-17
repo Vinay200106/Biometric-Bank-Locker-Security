@@ -1,0 +1,9 @@
+add_on_database.o: ADD_ON_DATABASE.C
+add_on_database.o: C:\KeilARM\ARM\INC\Philips\LPC21xx.h
+add_on_database.o: C:\KeilARM\ARM\RV31\INC\string.h
+add_on_database.o: delay.h
+add_on_database.o: types.h
+add_on_database.o: lcd.h
+add_on_database.o: uart0.h
+add_on_database.o: keypad.h
+add_on_database.o: R305.h

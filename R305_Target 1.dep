@@ -1,0 +1,39 @@
+Dependencies for Project 'R305', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x68972046)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.c)(0x6897203B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (.\lcd.c)(0x6897203E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x6897203C)
+I (types.h)(0x68972047)
+I (lcd.h)(0x6897203F)
+I (defines.h)(0x6897203A)
+F (.\uart0.c)(0x68972047)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart0.o --omf_browse .\uart0.crf --depend .\uart0.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (uart0.h)(0x68972047)
+F (.\R305.c)(0x68972042)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\r305.o --omf_browse .\r305.crf --depend .\r305.d)
+I (uart0.h)(0x68972047)
+I (lcd.h)(0x6897203F)
+I (delay.h)(0x6897203C)
+I (types.h)(0x68972047)
+F (.\MOTOR_ADD.c)(0x68A808FF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\motor_add.o --omf_browse .\motor_add.crf --depend .\motor_add.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (delay.h)(0x6897203C)
+I (types.h)(0x68972047)
+I (lcd.h)(0x6897203F)
+I (uart0.h)(0x68972047)
+I (i2c.h)(0x6897204B)
+I (kpm.h)(0x68972049)
+I (kpm_defines.h)(0x68972049)
+I (R305.h)(0x68972043)
+F (.\kpm.c)(0x68972049)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (kpm_defines.h)(0x68972049)
+I (types.h)(0x68972047)
+I (lcd.h)(0x6897203F)
+I (kpm.h)(0x68972049)
+F (.\i2c.c)(0x68972039)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (types.h)(0x68972047)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x6897203C)
+I (i2c.h)(0x6897204B)
