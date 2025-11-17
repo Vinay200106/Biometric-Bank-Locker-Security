@@ -59,29 +59,29 @@ A locker will only open if both the password and fingerprint match.
 
 ## 2.Edit Mode (Triggered via External Interrupt Button)
 
-Edit Password:
+1.Edit Password:
 #
-Ask for User ID
+2.Ask for User ID
 #
-Ask for current password
+3.Ask for current password
 #
-Set and confirm new password
+4.Set and confirm new password
 #
-Save to EEPROM
+5.Save to EEPROM
 #
-Edit Fingerprint:
+6.Edit Fingerprint:
 #
-Enroll new fingerprint
+7.Enroll new fingerprint
 #
-Delete specific fingerprint
+8.Delete specific fingerprint
 #
-Delete all fingerprints
+9.Delete all fingerprints
 
 ## 3.Motor Control
 #
-Forward rotation → Locker open
+1.Forward rotation → Locker open
 #
-Reverse rotation → Locker close
+2.Reverse rotation → Locker close
 
 
 
